@@ -162,3 +162,7 @@ end
 if yes?("Would you like to install SimpleForm?")
   generate("simple_form:install --bootstrap")
 end
+
+run("git init")
+run("git add .")
+run('git commit -m "initial commit"')
